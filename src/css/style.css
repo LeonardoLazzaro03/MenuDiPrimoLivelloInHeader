@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Header */
+  
+  header#main-haeder {
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    /* non ancora vista */
+    position: relative;
+  }
+  
+  header#main-haeder h1 {
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Navbar */
+  nav#main-navbar {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    /* non ancora vista */
+    transform: translateY(-50%);
+  }
+  
+  nav#main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  
+  nav#main-navbar ul li {
+    float: left;
+    min-width: 100px;
+  }
+  
+  nav#main-navbar ul li a {
+    display: block;
+    /*  border-right: 1px solid white; */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
